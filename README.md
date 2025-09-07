@@ -22,6 +22,10 @@ This repository is for practice and learning purposes. Each project is inside it
 4. **Animal Facts**
    - Displays random fun facts about animals
 
+4. **Calculator**
+   - calculate the mathematical operation + , -, *, /, % 
+
+
 ---
 
 ## 🚀 How to Run
