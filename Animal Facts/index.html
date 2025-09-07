@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pet Animal Facts</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🐾 Random Pet Animal Facts</h1>
+
+    <select id="animal">
+      <option value="cat">Cat 🐱</option>
+      <option value="dog">Dog 🐶</option>
+      <option value="panda">Panda 🐼</option>
+      <option value="bird">Bird 🦜</option>
+      <option value="fox">Fox 🦊</option>
+    </select>
+
+    <button>Show Fact</button>
+    <p id="fact">Select an animal and click the button to see a fact!</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
