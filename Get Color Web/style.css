@@ -1,0 +1,63 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #1d3557, #457b9d);
+    color: #fff;
+    text-align: center;
+}
+
+/* Heading */
+h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+/* Button */
+button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(135deg, #e63946, #f1faee);
+    color: #1d3557;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #f1faee, #e63946);
+    color: #000;
+}
+
+/* Color Box */
+div {
+    height: 120px;
+    width: 500px;
+    border-radius: 15px;
+    margin-top: 40px;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #000;
+    transition: background-color 0.4s ease;
+}
