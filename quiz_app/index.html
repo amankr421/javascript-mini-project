@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Ultimate Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/aman.jpg" alt="Logo">
+                <span>Quiz_By_Aman</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="nav-btns">
+                <button class="login-btn">Login</button>
+            </div>
+
+        </nav>
+
+        <!-- Home Screen -->
+        <div id="home-screen" class="screen active">
+            <div class="hero-section">
+                <div class="hero-text">
+                    <h1>Test Your Knowledge.</h1>
+                    <h2>Discover Your Strengths.</h2>
+                    <p>Challenge yourself with quizzes from different fields. Ready to play?</p>
+                </div>
+                <div class="hero-image">
+                    <img src="images/quiz.jpg" alt="Quiz Hero Image">
+                </div>
+            </div>
+
+            <h2 class="section-title">Explore Categories</h2>
+            <div class="category-slider-container">
+                <div class="category-slider" id="category-slider"></div>
+                <button class="slider-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="slider-btn next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+
+        <!-- User Details Screen -->
+        <div id="user-details-screen" class="screen">
+            <div class="user-details-form">
+                <div class="form-section">
+                    <h2>Enter Your Details</h2>
+                    <div class="input-box">
+                        <input type="text" id="username" required>
+                        <label for="username">Your Name</label>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" id="usernumber" required>
+                        <label for="usernumber">Your Gmail</label>
+                    </div>
+                    <button id="start-quiz-btn" class="btn start">🚀 Start Quiz</button>
+                    <button id="back-to-home-btn" class="btn back">⬅ Back</button>
+                </div>
+                <div class="info-section">
+                    <div class="overlay">
+                        <h1>Welcome to Quiz World 🎯</h1>
+                        <p>Boost your knowledge with fun & interactive quizzes.<br>
+                        Learn, play, and challenge yourself every day!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div id="quiz-screen" class="screen">
+            <div class="quiz-header">
+                <p id="user-info"></p>
+                <p id="attempt-info"></p>
+            </div>
+            <div class="quiz-content">
+                <div class="question-container">
+                    <h2 id="question">Question goes here</h2>
+                    <div id="answer-buttons" class="answer-buttons"></div>
+                </div>
+                <div class="quiz-navigation">
+                    <button id="next-btn">Next</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Score Screen -->
+        <div id="score-screen" class="screen">
+            <div class="score-card">
+                <h3>Quiz Finished!</h3>
+                <p>Total Questions: <span id="total-questions"></span></p>
+                <p>Correct Answers: <span id="correct-answers"></span></p>
+                <p>Incorrect Answers: <span id="incorrect-answers"></span></p>
+                <p>Your Score: <span id="final-score"></span> / <span id="total-questions-2"></span></p>
+            </div>
+            <div class="result-buttons">
+                <button id="reattempt-btn">Re-attempt Quiz</button>
+                <button id="go-home-btn">Go to Home</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>About Us</h3>
+                <p>Quiz_By_Aman_kumar_kushwaha.<br>It is a fun way to test your knowledge and learn new things daily.</p>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Chotki Delha , GAYA , BIHAR.</p>
+                <p><i class="fas fa-envelope"></i> aman06052004@Gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 222 444 0000</p>
+            </div>
+
+            <div class="footer-social">
+                <h3>Follow Us</h3>
+                <a href="https://www.facebook.com/yourusername" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://x.com/AmanKumar41235?t=OO0U0fYhUitKRjE1JYxaFA&s=09" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/mr_aman421?igsh=MW93NnZ4MWFsaWtvaw==" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/aman-kumar-216bbb255/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2025 Quiz_By_Aman Kumar Kushwaha. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
