@@ -23,7 +23,10 @@ This repository is for practice and learning purposes. Each project is inside it
    - Displays random fun facts about animals
 
 4. **Calculator**
-   - calculate the mathematical operation + , -, *, /, % 
+   - calculate the mathematical operation + , -, *, /, 
+
+5. ** Quiz app **
+   - Different types of question and test your knowlwdge 
 
 
 ---
